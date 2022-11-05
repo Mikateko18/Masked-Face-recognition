@@ -12,11 +12,6 @@ docopt==0.6.2
 fastavro==1.6.1
 Flask==2.1.2
 fonttools==4.33.3
-google-api-core==2.10.2
-google-auth==2.13.0
-google-cloud-pubsub==2.13.10
-googleapis-common-protos==1.56.4
-grpc-google-iam-v1==0.12.4
 grpcio==1.50.0
 grpcio-status==1.50.0
 hdfs==2.7.0
