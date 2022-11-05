@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 app = Flask(__name__')
 
-
-app.add_url_rule('/', 'faceApp',views.faceApp, methods=['GET','POST'])
+@app.route("/",'faceApp',views.faceApp, methods=['GET','POST'])
+#app.add_url_rule('/', 'faceApp',views.faceApp, methods=['GET','POST'])
 if __name__ == "__main__":
     app.run(debug=True)
