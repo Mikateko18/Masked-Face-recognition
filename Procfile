@@ -1,1 +1,1 @@
-web: gunicorn LBPH:'main:app
+web: gunicorn LBPH:main:app
